@@ -26,7 +26,7 @@
       }];
     };
     defaultGateway = "192.168.8.1";
-    nameservers = [ "192.168.8.100", "192.168.8.101" ];
+    nameservers = [ "192.168.8.100" "192.168.8.101" ];
   };
 
   # System localization
