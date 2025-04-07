@@ -26,11 +26,11 @@
       }];
     };
     defaultGateway = "192.168.8.1";
-    nameservers = [ "192.168.8.100""192.168.8.101" ];
+    nameservers = [ "192.168.8.100", "192.168.8.101" ];
   };
 
   # System localization
-  time.timeZone = "Europe/London;
+  time.timeZone = "Europe/London";
   i18n.defaultLocale = "en_GB.UTF-8";
   console.keyMap = "uk";
 
